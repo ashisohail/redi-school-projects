@@ -1,9 +1,14 @@
 /* CSS of main page */
 body {
     background-image: url("../img/white-bg.jpg"); 
-    /* margin: 0px auto;
-    max-width: 500px; */
     background-size: cover;
+}
+
+.home-page {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);     
 }
 
 .first-heading {
