@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>contact</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+
+    <h1 class="heading">Contact Us</h1>
+    <p class="info-text">Please fill in the below information</p>
+    <form>
+        <div>
+            <input type="text" placeholder="full name" name="name"> <br>
+            <input type="password" placeholder="Password" name="password"><br>
+            <input type="email" placeholder="email" name="email">   
+        </div>
+    <p>Please select your country</p>
+        <div>
+            <input list="countries" placeholder="Country" name="country">
+            <datalist id="countries">
+                <option value="Pakistan">
+                <option value="UK">
+                <option value="denmark">
+                </option>
+            </datalist>
+        </div>
+        <div><br>
+            Favourite Color? <br>
+            <input type="radio" value="red" name="color">Red <br>
+            <input type="radio" value="blue" name="color">Blue<br>
+            <input type="radio" value="green" name="color">Green<br>
+        </div>
+        <br>
+        <textarea name="Additional Information(if any)" id="" cols="30" rows="10">Additional Information (if any)</textarea><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>

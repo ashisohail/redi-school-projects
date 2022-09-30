@@ -1,0 +1,110 @@
+/* CSS of main page */
+body {
+    background-image: url("../img/white-bg.jpg"); 
+    /* margin: 0px auto;
+    max-width: 500px; */
+    background-size: cover;
+}
+
+.first-heading {
+    text-align: center;    
+}
+/* End of CSS of main page */
+
+/* Start of CSS of list-flexbox-lesson-5 */
+.nev-bar {
+    display: flex;
+    height: 300;
+    justify-content: space-evenly;
+}
+
+.item1 {
+    color: blue;
+}
+
+.item2 {
+    color: grey;
+}
+
+.item3 {
+    color: red;
+}
+
+.main {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.course-plan {
+    height: 500;
+    justify-content: space-evenly; 
+    background-color: yellow;
+}
+
+.learning-items {
+    height: 500;
+    justify-content: space-evenly;
+    color: lightgreen;
+}
+
+.learning-items > ol {
+    list-style-type: lower-latin;
+}
+/* End of CSS of list-flexbox-lesson-5 */
+
+/* Start of CSS of Attribute-classes-id-lesson-3.html */
+
+  .initials:hover span {
+    display: none
+  }
+  
+  .initials:hover:before {
+    content: "Ayesha Siddiqa"
+  }
+
+#recepie title {
+  color: burlywood;
+  text-shadow: 0in;
+}
+.description {
+    text-align: justify;
+   }
+
+/* End of CSS of Attribute-classes-id-lesson-3.html*/
+
+/* start of css of iframs-lesson-4.html */
+
+iframe {
+  border:solid;
+  color:blue;
+  height:600px;
+  width:80%;
+  text-align: center;
+}
+
+.frames {
+  color: black;
+  text-underline-position: below;
+}
+
+/* End of css of iframs-lesson-4.html */
+
+/* Start of css of forms-lesson-4.html */
+
+form { 
+  margin: 0 auto; 
+  width:250px;
+  padding-left: 20px;
+  }
+
+.info-text {
+  text-align: center;
+}
+
+.heading {
+    text-underline-position: below;
+    flood-color: blue;
+    text-align: center;
+  }
+/* End of css of forms-lesson-4.html */
