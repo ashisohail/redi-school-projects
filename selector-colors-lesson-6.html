@@ -3,29 +3,66 @@
   <head>
     <style>
       /* Modify this section to solve the homework. Uncomment the codes below. */
-      /* Uncomment here
+
       div p {
-        background-colors: ;
+        background-color: yellow;
       }
-      div > p {
+      div > p { background-color: orange; 
        
       }
-      div ~ p {
+      div ~ p { background-color: blue;
         
       }
-      div + p {
+      div + p {background-color: green;
 
       }
-      h2{
+
+      h2 {
+        font-size: 40px;
+        background: linear-gradient(to right, #e80f0f,#f9b90b, #08e408, #ecd60b, rgb(140, 15, 229));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+        text-align: center; 
+        text-shadow: 2px 2px; 
+        text-decoration: underline; 
+        text-decoration-style: wavy;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* font-weight: bold; */
+        text-transform: capitalize; 
         //Make a fancy shadow for h2 here. Style it anyway you want!
       }
+
       p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+      
         //Change the fonts here. Use any font you want, even comic sans!
       }
       a{
-        //modify the link into a button. Make the button color "Bondi Blue", which is the inverse color of "tomato". More info: https://www.color-name.com/tomato.color
+        background-color: white;
+            border: 2px solid black;
+            color: rgb(0, 149, 182);
+            padding: 5px 10px;
+            text-align: center;
+            /* display: inline-block;  */
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
+            text-decoration:none;
+            display: flex;
+            /* justify-content: center; */
+            width: 200px;
+            margin: 0px auto;
+          
+            
+            
+        //modify the link into a button. Make the button color "Bondi Blue", 
+        which is the inverse color of "tomato". More info: https://www.color-name.com/tomato.color
       }
-      Uncomment here */
+      a:hover {
+  background-color: rgba(204, 223, 34, 0.247);}
+    
     </style>
   </head>
   <body>
@@ -37,7 +74,7 @@
     </p>
 
     <!--Use inline for Red; use predefined name-->
-    <p>Red</p>
+    <p style="background-color:red">Red</p>
     <div>
       <!--Use internal CSS + combinators for orange and yellow-->
       <p>Orange</p>
@@ -49,9 +86,9 @@
     <p>Green</p>
     <p>Blue</p>
     <!--Use inline for Indigo; use hex-->
-    <p>Indigo</p>
+    <p style="background-color:#4B0082;">Indigo</p>
     <!--Use inline for Indigo; use rgb-->
-    <p>Violet</p>
+    <p style="background-color:rgb(56.1%,0%,100%) ;">Violet</p>
 
     <a href="#">Rainbows are awesome!</a>
   </body>
