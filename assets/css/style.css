@@ -1,15 +1,19 @@
 /* CSS of main page */
-body {
+.home-page{
     background-image: url("../img/backgroundpic1.jpg"); 
     background-size: cover;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);    
 }
 
-.home-page {
+/* .home-page {
     position: absolute;
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);     
-}
+} */
 
 .first-heading {
     text-align: center;    
