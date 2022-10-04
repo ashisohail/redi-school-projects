@@ -1,6 +1,6 @@
 /* CSS of main page */
 .home-page{
-    background-image: url("../img/backgroundpic1.jpg"); 
+    background-image: url("../img/bricks-bg.jpg"); 
     background-size: cover;
     position: absolute;
     top: 50%; 
