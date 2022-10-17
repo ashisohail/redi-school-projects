@@ -1,11 +1,16 @@
 /* CSS of main page */
 .home-page{
-    background-image: url("../img/bricks-bg.jpg"); 
+    /* background-image: url("../img/bricks-bg.jpg");  */
     background-size: cover;
     position: absolute;
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);    
+}
+.header {
+  display: flex;
+  height: 300;
+  justify-content: space-evenly;
 }
 
 /* .home-page {
@@ -117,3 +122,140 @@ form {
     text-align: center;
   }
 /* End of css of forms-lesson-4.html */
+
+/* Start of CSS of lesson-7-exercise */
+
+.outer {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+}
+
+.main-box {
+  border: blue 1px solid;
+  width: 50vw;
+  height: 50vh;
+}
+
+* {
+  margin: 0;
+}
+.inner-box {
+  background-color: red; 
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+.text {
+  color: white;
+}
+
+/* Start of html&css-lesson-7 */
+
+.lesson-7 {
+  background-color: lightskyblue;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  background-color: aqua;
+  color: white;
+  width: 100%;
+  height: 58px;
+  padding-top: 25px;
+  font-size: large;
+}
+
+.main-container {
+  display: flex;
+  height: 500px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+aside {
+  background-color: lightgreen;
+  border: solid 1px;
+  width: 25%;
+  color: white;
+  padding-top: 200px;
+  border: none;
+}
+
+article {
+  background-color: orange;
+  width: 75%;
+  margin-left: 30px;
+  color: white;
+  padding-top: 200px;
+ 
+}
+
+.artical-image {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+
+}
+article > h2 {
+  margin: 0;
+}
+.image-7 {
+  color: white;
+  background-color: lightsalmon;
+  width: 30%;
+  text-align: center;
+  padding: 100px 0;
+
+}
+
+footer {
+  text-align: center;
+  background-color: aqua;
+  color: white;
+  width: 100%;
+  height: 58px;
+  padding-top: 25px;
+  font-size: large;
+  margin-top: 30px;
+}
+/* End of html&css-lesson-7 */
+
+/* start of lesson-8 */
+
+.div-1 {
+  background-color: tomato;
+  color: white;
+}
+
+.div-2 {
+  color: tomato;
+}
+
+.div-3 {
+  background-color: tomato;
+}
+
+.parent-div {
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  border: 1px solid red;
+  padding: 2px;
+
+}
+.child-div {
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  border: 1px solid red;
+  padding: 2px;
+  margin-top: 16px;
+
+}
