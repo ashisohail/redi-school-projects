@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lesson-10</title>
+    <style>
+      body {
+        background-color: #eeeeee;
+      }
+      .logInForm {
+        background-color: #ffffff;
+        width: 450px;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+      }
+
+      div img:nth-child(1) {
+        height: 60px;
+        width: 300px;
+        margin: 25px auto;
+      }
+
+      div img:nth-child(2) {
+        border-radius: 20%;
+        height: 150px;
+        width: 150px;
+        margin: 25px auto;
+      }
+
+      div p:nth-child(3) {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 20px;
+        color: gray;
+      }
+      .mandatory {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 20px;
+        color: gray;
+      }
+      .mandatory::after {
+        content: "           mandatory field!";
+        color: hsl(16deg 87% 54%);
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 20px;
+      }
+
+      div input:nth-child(7) {
+        background-color: hsl(16deg 87% 54%);
+        border: none;
+        margin-top: 25px;
+        color: white;
+        height: 40px;
+        width: 100%;
+      }
+
+      div input:nth-child(7):hover {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logInForm">
+      <img src="assets/img/Redi.png" alt="Redi School logo" />
+      <img src="assets/img/avatar.jpg" alt="Avatar" />
+      <p>Username:</p>
+      <input type="text" name="" id="" />
+      <p class="mandatory">Password:</p>
+      <input type="password" />
+      <input type="button" value="Submit" />
+    </div>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" /> 
+    <title>Css Selector</title>
+
+    <style>
+      h3:hover {
+        color: red;
+      }
+
+      h1::after {
+        content: "£";
+        color: blue;
+        position: relative;
+        top: -10px;
+        font-size: 16px;
+      }
+      h3::before {
+        content: "Hiii";
+        color: blue;
+      }
+      :root {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Hello i am H1</h1>
+    <p>Hello i am p</p>
+    <h3>Hello i am h3</h3>
+    <p>First</p>
+    <p>Second</p>
+    <p>Third</p>
+    <input type="button" value="button1" />
+  </body>
+</html> -->
