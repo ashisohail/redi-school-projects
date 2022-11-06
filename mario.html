@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mario</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: grid;
+        grid-template-rows: 275px 200px 250px;
+      }
+
+      .sky {
+        background-color: lightskyblue;
+      }
+      .sun {
+        content: "";
+        height: 85px;
+        width: 85px;
+        border-radius: 50%;
+        background-color: yellow;
+        margin-top: 40px;
+        margin-left: 40px;
+         animation:  sunset 5s linear infinite; 
+         /* animation: slidein 3s ease-in 1s infinite reverse both running; */ 
+         /* animation: 4s linear 0s ease-in-out alternate-reverse sun-rise; */
+      }
+
+      @keyframes sunset {
+        75% {background: rgb(19, 19, 17);}
+        80% { background: DarkGoldenrod1;}
+        90% { background: orchid4;}
+        100% { background: darken(desaturate(blue, 30%), 40%);} 
+      }
+
+      /* @keyframes sun-rise {
+  from {
+    transform: translateY(110vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}   */
+
+      /* @keyframes slidein {
+        from {
+          translate: 0;
+        }
+        to {
+          translate: 10vw;
+        }
+      }  */
+
+      .grass {
+        background-color: #41980a;
+      }
+      .road {
+        background-color: gray;
+        border-bottom-style:ridge;
+      }
+      .item {
+        color: white;
+        border-style: dashed;
+        width: 100%;
+      }
+
+      img {
+        animation: drive 5s linear infinite;
+      }
+
+      @keyframes drive {
+        from {
+          translate: 0;
+        }
+        to {
+          translate: 100vw;
+        }
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sky">
+        <div class="sun"></div>
+      </div>
+      <div class="grass"> </div>
+      <div class="road">
+        <img
+          src="https://raw.githubusercontent.com/iamshaunjp/css-animations-playlist/master/mario-examples/img/mario.png"
+          alt="Mario Character"
+        />
+          <div class="item"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
